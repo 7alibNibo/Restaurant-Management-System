@@ -2,7 +2,7 @@ const express = require('express');
 const router  = express.Router();
 
 // GET    /reservations       → list all reservations
-router.get('/', (req, res) => {
+router.get('/', (req,res) => {
   // TODO: fetch from DB
   res.json({ message: 'List all reservations' });
 });
