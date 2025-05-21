@@ -67,7 +67,7 @@ app.use((err, req, res, next) => {
 module.exports = app;
 
 // 9) Start the server
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`🚀 Backend server is running at http://localhost:${PORT}`);
 });
