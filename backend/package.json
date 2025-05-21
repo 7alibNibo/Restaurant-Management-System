@@ -4,9 +4,9 @@
   "private": true,
   "main": "./bin/www",
   "scripts": {
-    "start": "node ./bin/www",
-    "test": "jest --runInBand"
-  },
+  "start": "node app.js",
+  "test": "jest --runInBand"
+},
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "debug": "^4.3.4",
